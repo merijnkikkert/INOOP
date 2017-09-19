@@ -5,8 +5,12 @@ using namespace std;
 
 class Student : public Persoon
 {
+private:
+	double studiekostenPM;
+
 public:
 	Student();
-	Student(string name, int age);
+	Student(string name, int age, double studyCost);
+	double getMonthlyCost();
 };
 

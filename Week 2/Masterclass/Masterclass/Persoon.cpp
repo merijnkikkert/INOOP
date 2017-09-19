@@ -13,4 +13,4 @@ string Persoon::getName() {
 
 int Persoon::getAge() {
 	return leeftijd;
-}
+}

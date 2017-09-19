@@ -10,7 +10,7 @@ protected:
 
 public:
 	Persoon();
-	virtual string getName();
-	virtual int getAge();
+	string getName();
+	int getAge();
 };
 
